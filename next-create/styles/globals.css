@@ -1,0 +1,102 @@
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+}
+#components-layout-demo-top .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+.logo {
+  float: left;
+  position: relative;
+  background-image: url('./../sources/juejin.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 8rem;
+  height: 2rem;
+  left:-1.5rem;
+  top:1.3rem;
+}
+
+.toptab {
+  width: 100% !important;
+}
+.toptab li span:hover {
+  padding-bottom: 5px;
+  border-bottom: 2px solid skyblue;
+}
+.ant-menu-overflow-item ,.ant-menu-item ,.ant-menu-item-selected, .ant-menu-item-only-child .ant-menu-overflow, .ant-menu, .ant-menu-root, .ant-menu-horizontal, .ant-menu-dark, .css-dev-only-do-not-override-ixblex {
+  color: black;
+  /* background-color: white; */
+}
+#classifytab {
+  height: 20px;
+  width: 100%;
+  padding: 15px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap; 
+  justify-content: flex-start; 
+  border-top: 1px solid rgb(207, 204, 204);
+} 
+  #classifytab>div{
+    margin-left: 45px;
+    color: #71777c !important;
+  }
+  #classifytab>div:hover {
+    cursor: pointer;
+  }
+  .ant-layout-header {
+    background-color: white;
+  }
+  
+
+  a {
+    color: #909090;
+    font-size: 13px;
+    text-decoration: none !important;
+  }
+  a:hover {
+    text-decoration: #007fff !important;
+  }
+  a:active {
+    text-decoration: none !important;
+  }
+  .container {
+    display: block;
+    position: relative;
+    width: 655px;
+    height: 1000px;
+    left: 210px;
+    top:0;
+    color: #909090;
+  }
+  .arti_title {
+    display: inline-block;
+    position: relative;
+    left: 190px;
+  }
+
+body {
+  --themecolor: #18181c;
+  background-color: var(--themecolor);
+}
+h2 {
+  color: #909090;
+}
+.ant-menu-title-content {
+  color: #909090;
+}
+.Content {
+  width: 655px;
+  /* margin:auto 0; */
+  position: relative;
+  top: -80px;
+}

@@ -1,0 +1,40 @@
+.box {
+    position: relative;
+    top: -30px;
+    right: -900px;
+    width: 220px;
+    height: 80px;
+    /* display: inline-block; */
+}
+.logo {
+    position: absolute;
+    top: 20px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(105, 105, 5);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+} 
+.name {
+    position: absolute;
+    color: #909090;
+    left: 50px;
+    top: 3px;
+}
+.descript {
+    color: #909090;
+    position: absolute;
+    left: 50px;
+    top: 23px;
+}
+.level {
+    position: absolute;
+    left: 108px;
+    top: 19px;
+    width: 40px;
+    height: 20px;
+    background-position: center;
+    background-size: contain;
+}

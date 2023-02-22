@@ -1,0 +1,14 @@
+.btn {
+    position: absolute;
+    top: 18px;
+    left: 900px;
+    width: 90px;
+    height: 40px;
+}
+.btn2 {
+    position: absolute;
+    top: 18px;
+    left: 1050px;
+    width: 90px;
+    height: 40px;
+}

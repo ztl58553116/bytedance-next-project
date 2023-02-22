@@ -1,0 +1,32 @@
+.container {
+    position: relative;
+    display: inline-block;
+    width: 220px;
+    height: 550px;
+    left: 890px;
+    top: -1100px;
+    /* background-color: red; */
+}
+.tab {
+    width: 220px;
+    height: 50px;
+    line-height: 50px;
+    color: #909090;
+    /* background-color: yellow; */
+    border-bottom: 1px solid hsla(0,0%,58.8%,.1);
+}
+.lst {
+    width: 200px;
+    padding: 10px;
+    height: 30px;
+    line-height: 10px; 
+    color: #909090;
+    font-size: 12px;
+}
+.lnk {
+    display: inline-block;
+    width: 200px;
+    height: 10px;
+    /* text-decoration: none !important; */
+    color: #909090
+}
